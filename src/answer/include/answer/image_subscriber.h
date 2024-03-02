@@ -37,7 +37,7 @@ private:
         image_all_status = cv_bridge::toCvCopy(image_raw, sensor_msgs::image_encodings::BGR8);
         cv::resize(image_all_status->image, image_all_status->image, cv::Size(image_raw->width, image_raw->height));
         cv::Mat test_image = image_all_status->image;
-        RCLCPP_INFO_STREAM(this->get_logger(),"Get image");
+        //RCLCPP_INFO_STREAM(this->get_logger(),"Get image");
 
         //deal with image
         DealImage DealImage;
@@ -52,11 +52,10 @@ private:
         cv::Point line_location;
         InvokingCalculate(lines, contours, to_click, judge_click_now,line_location);
         if (judge_click_now == 1) {
-            judge_click_now = false;
+            //judge_click_now = false;
             RCLCPP_FATAL_STREAM(this->get_logger(),
-                                "Send position: " << "(" << to_click.x <<","<<to_click.y<< ")"<<"Get line position:"<< line_location.y);
+                                "Send position: " << "(" << to_click.x <<","<<to_click.y<< ")"<< line_location.y);
             publisher_->publish(to_click);
-
         }
     }
 
@@ -67,8 +66,8 @@ private:
         int line_locationy = CalculateAverage(std::move(lines));
         line_location =cv::Point(0,line_locationy);
         //geometry_msgs::msg::Point32 to_click;
-        if (((line_location.y - click_location.y) <= 10)&&((line_location.y - click_location.y) >= -10)) {
-            judge_click_now = false;
+        if (((line_location.y - click_location.y) <= 26)&&((line_location.y - click_location.y) >= 0)) {
+            judge_click_now = true;
             to_click.x = click_location.x;
             to_click.y = click_location.y;
         }
@@ -123,7 +122,7 @@ private:
             }
         }
         low.x -=56;
-        low.y +=3;
+        //low.y +=3;
         return low;
     }
 };

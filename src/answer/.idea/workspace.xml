@@ -23,25 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17d0d99f-72b4-47f6-98ee-d13be4b7b822" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../build/answer/CMakeFiles/my_node.dir/src/my_node.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/answer/CMakeFiles/my_node.dir/src/my_node.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../build/answer/colcon_command_prefix_build.sh.env" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/answer/colcon_command_prefix_build.sh.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../build/answer/my_node" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/answer/my_node" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../build/homework/colcon_command_prefix_build.sh.env" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/homework/colcon_command_prefix_build.sh.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../install/answer/include/answer/deal_image.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/answer/include/answer/deal_image.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../install/answer/include/answer/image_subscriber.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/answer/include/answer/image_subscriber.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../install/answer/lib/answer/launch/answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/answer/lib/answer/launch/answer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../install/answer/lib/answer/my_node" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/answer/lib/answer/my_node" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../install/answer/share/answer/launch/answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/answer/share/answer/launch/answer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../install/setup.bash" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/setup.bash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../install/setup.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/setup.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../install/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../install/setup.zsh" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/setup.zsh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../log/latest_build" beforeDir="false" afterPath="$PROJECT_DIR$/../../log/latest_build" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/answer/deal_image.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/answer/deal_image.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/answer/image_subscriber.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/answer/image_subscriber.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch/answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/launch/answer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework/include/homework/homework_node.h" beforeDir="false" afterPath="$PROJECT_DIR$/../homework/include/homework/homework_node.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +113,7 @@
       <workItem from="1708864580552" duration="10785000" />
       <workItem from="1708908794652" duration="46136000" />
       <workItem from="1709349069656" duration="494000" />
-      <workItem from="1709349659588" duration="4367000" />
+      <workItem from="1709349659588" duration="8353000" />
     </task>
     <servers />
   </component>
