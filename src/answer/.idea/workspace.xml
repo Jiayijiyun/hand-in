@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="answer" targetName="uninstall" />
+      <config projectName="answer" targetName="answer_uninstall" />
+      <config projectName="answer" targetName="my_node" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17d0d99f-72b4-47f6-98ee-d13be4b7b822" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../build/answer/CMakeFiles/my_node.dir/src/my_node.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/answer/CMakeFiles/my_node.dir/src/my_node.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/answer/colcon_command_prefix_build.sh.env" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/answer/colcon_command_prefix_build.sh.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/answer/my_node" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/answer/my_node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/homework/colcon_command_prefix_build.sh.env" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/homework/colcon_command_prefix_build.sh.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../install/answer/include/answer/deal_image.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/answer/include/answer/deal_image.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../install/answer/include/answer/image_subscriber.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/answer/include/answer/image_subscriber.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../install/answer/lib/answer/launch/answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/answer/lib/answer/launch/answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../install/answer/lib/answer/my_node" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/answer/lib/answer/my_node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../install/answer/share/answer/launch/answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/answer/share/answer/launch/answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../install/setup.bash" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/setup.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../install/setup.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/setup.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../install/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../install/setup.zsh" beforeDir="false" afterPath="$PROJECT_DIR$/../../install/setup.zsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../log/latest_build" beforeDir="false" afterPath="$PROJECT_DIR$/../../log/latest_build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/answer/deal_image.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/answer/deal_image.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/answer/image_subscriber.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/answer/image_subscriber.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch/answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/launch/answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework/include/homework/homework_node.h" beforeDir="false" afterPath="$PROJECT_DIR$/../homework/include/homework/homework_node.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-my_node" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="3.4" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2coVAK5BjPFfj6aX2f5Gei7sFg7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "ctest.advertisement.all.test.configuration.is.created": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/jianyu/test2_ws/src/answer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CLionExternalConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include/answer" />
+      <recent name="$PROJECT_DIR$/include" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/src/deal_image.cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All CTest" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17d0d99f-72b4-47f6-98ee-d13be4b7b822" name="Changes" comment="" />
+      <created>1708777773503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708777773503</updated>
+      <workItem from="1708777774581" duration="17329000" />
+      <workItem from="1708863599195" duration="450000" />
+      <workItem from="1708864059984" duration="509000" />
+      <workItem from="1708864580552" duration="10785000" />
+      <workItem from="1708908794652" duration="46136000" />
+      <workItem from="1709349069656" duration="494000" />
+      <workItem from="1709349659588" duration="4367000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>
