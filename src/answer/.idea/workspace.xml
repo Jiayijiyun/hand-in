@@ -16,7 +16,7 @@
       <config projectName="answer" targetName="my_node" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
@@ -24,7 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="17d0d99f-72b4-47f6-98ee-d13be4b7b822" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/answer/image_subscriber.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/answer/image_subscriber.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/answer/deal_image.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/answer/deal_image.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/answer/deal_image.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/answer/deal_image.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +66,13 @@
     "cidr.known.project.marker": "true",
     "ctest.advertisement.all.test.configuration.is.created": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/jianyu/test2_ws/src/answer",
+    "last_opened_file_path": "/home/jianyu/ph_ws/src/answer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CLionExternalConfigurable",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -113,7 +115,10 @@
       <workItem from="1708864580552" duration="10785000" />
       <workItem from="1708908794652" duration="46136000" />
       <workItem from="1709349069656" duration="494000" />
-      <workItem from="1709349659588" duration="8353000" />
+      <workItem from="1709349659588" duration="12206000" />
+      <workItem from="1709378668451" duration="73000" />
+      <workItem from="1709378750918" duration="5549000" />
+      <workItem from="1709385396381" duration="17000" />
     </task>
     <servers />
   </component>
