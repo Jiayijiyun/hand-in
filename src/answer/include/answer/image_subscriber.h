@@ -1,15 +1,11 @@
-
 #ifndef ANSWER_IMAGE_SUBSCRIBER_H
 #define ANSWER_IMAGE_SUBSCRIBER_H
 
-#include <utility>
 
 #include "memory"
-#include "chrono"
 #include "functional"
 
 #include "rclcpp/rclcpp.hpp"
-#include "sensor_msgs/msg/image.hpp"
 #include "geometry_msgs/msg/point32.hpp"
 #include "cv_bridge/cv_bridge.h"
 #include "opencv2/opencv.hpp"
@@ -22,7 +18,7 @@ static rclcpp::Publisher<geometry_msgs::msg::Point32>::SharedPtr publisher_;
 
 class ImagesSubscriber : public rclcpp::Node {
 public:
-    ImagesSubscriber(); //: Node("image_subscriber");
+    ImagesSubscriber();
 
 private:
     //CallBack parameters
@@ -42,7 +38,7 @@ private:
     //CalculateAverage parameters
     int y;
     bool start;
-    int temporary = 0;
+    int temporary;
 
     //GetLowCLick parameters
     cv::Point low;

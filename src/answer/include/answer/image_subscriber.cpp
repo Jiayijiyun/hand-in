@@ -1,7 +1,3 @@
-//
-// Created by jianyu on 24-2-24.
-//
-
 #include "image_subscriber.h"
 
 ImagesSubscriber::ImagesSubscriber() : Node("image_subscriber") {
@@ -16,11 +12,9 @@ void ImagesSubscriber::CallBack(sensor_msgs::msg::Image::SharedPtr image_raw) {
     image_all_status = cv_bridge::toCvCopy(image_raw, sensor_msgs::image_encodings::BGR8);
     cv::resize(image_all_status->image, image_all_status->image, cv::Size(image_raw->width, image_raw->height));
     cv::Mat test_image = image_all_status->image;
-    //RCLCPP_INFO_STREAM(this->get_logger(),"Get image");
 
     //deal with image
     dealImage.Invoking(test_image, lines, contours);
-
 
     //judge whether and where click
     judge_click_now = false;
@@ -40,8 +34,7 @@ void ImagesSubscriber::InvokingCalculate(std::vector<cv::Vec4i> lines, std::vect
     click_location = GetLowCLick(std::move(contours));
     line_locationy = CalculateAverage(std::move(lines));
     line_location = cv::Point(0, line_locationy);
-    //geometry_msgs::msg::Point32 to_click;
-    if (((line_location.y - click_location.y) <= 26) && ((line_location.y - click_location.y) >= 0)) {
+    if (((line_location.y - click_location.y) <= 25) && ((line_location.y - click_location.y) >= 0)) {
         judge_click_now = true;
         to_click.x = click_location.x;
         to_click.y = click_location.y;
@@ -52,7 +45,6 @@ void ImagesSubscriber::InvokingCalculate(std::vector<cv::Vec4i> lines, std::vect
 int ImagesSubscriber::CalculateAverage(std::vector<cv::Vec4i> lines) {
     y = 0;
     start = true;
-    //sum up all 'x' and 'y' in status
     for (const auto &vec: lines) {
         temporary = 0;
         temporary = (vec[1] + vec[3]) / 2;
@@ -95,9 +87,5 @@ cv::Point ImagesSubscriber::GetLowCLick(std::vector<std::vector<cv::Point>> cont
             }
         }
     }
-    low.x -= 56;
-    //low.y +=3;
     return low;
 }
-
-
